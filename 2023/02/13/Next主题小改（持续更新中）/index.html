@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 5.4.2">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CCaveat:300,300italic,400,400italic,700,700italic%7CJetBrains+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":true,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+
+
+<link rel="canonical" href="http://example.com/2023/02/13/Next%E4%B8%BB%E9%A2%98%E5%B0%8F%E6%94%B9%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2023/02/13/Next%E4%B8%BB%E9%A2%98%E5%B0%8F%E6%94%B9%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/","path":"2023/02/13/Next主题小改（持续更新中）/","title":"Next主题小改（持续更新中）"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+
+<!-- Load TweenLite -->
+<script src="https://cdn.jsdelivr.net/gh/HyperHare/JIARAN/npm/greensock@1.20.2/TweenLite.js"></script>
+
+<!-- Copyrighted cubism SDK -->
+<script src="https://cdn.jsdelivr.net/gh/HyperHare/JIARAN/live2d/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<!-- Load Pixi (dependency for cubism 2/4 integrated loader) -->
+<script src="https://cdn.jsdelivr.net/gh/HyperHare/JIARAN/npm/pixi.js@5.3.6/pixi.min.js"></script>
+<!-- Load cubism 4 integrated loader -->
+<script src="https://cdn.jsdelivr.net/gh/HyperHare/JIARAN/npm/pixi-live2d-display@0.3.1/cubism4.min.js"></script>
+
+<!-- Load pio and alternative loader -->
+<link href="https://cdn.jsdelivr.net/gh/HyperHare/JIARAN/live2d/lib/pio.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/gh/HyperHare/JIARAN/live2d/lib/pio.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/HyperHare/JIARAN/live2d/lib/pio_sdk4.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/HyperHare/JIARAN/live2d/lib/load.js"></script><title>Next主题小改（持续更新中） | HyperHare's Home</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">HyperHare's Home</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">你当然不是什么惊世骇俗之物，你只是凛冬中，我愿“拥毳衣炉火”去看的白雪。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-house-flood-water fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-circle-info fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-user-tag fa-fw"></i>标签<span class="badge">4</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-folder-open fa-fw"></i>归档<span class="badge">4</span></a></li>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=JetBrains+Mono&family=Mulish&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i><font style="font-family: ZCOOL KuaiLe;font-size: 15px;color: orange">想找些什么捏</font>
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9A%90%E8%97%8F%E5%A4%B4%E5%83%8F%E8%BE%B9%E6%A1%86"><span class="nav-number">1.</span> <span class="nav-text">隐藏头像边框</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E5%8D%95%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%9D%97%E9%A2%9C%E8%89%B2"><span class="nav-number">2.</span> <span class="nav-text">修改单行代码块颜色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E7%82%B9%E5%87%BB%E7%88%86%E7%82%B8%E6%95%88%E6%9E%9C"><span class="nav-number">3.</span> <span class="nav-text">添加点击爆炸效果</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="HyperHare"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">HyperHare</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/HyperHare" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;HyperHare" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:1953861375@qq.com" title="E-Mail → mailto:1953861375@qq.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1953861375&website=www.oicqzone.com" title="Tencent → tencent:&#x2F;&#x2F;AddContact&#x2F;?fromId&#x3D;45&amp;fromSubId&#x3D;1&amp;subcmd&#x3D;all&amp;uin&#x3D;1953861375&amp;website&#x3D;www.oicqzone.com" rel="noopener me" target="_blank"><i class="fab fa-qq fa-fw"></i>Tencent</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://telegram.me/HyperHare" title="telegram → https:&#x2F;&#x2F;telegram.me&#x2F;HyperHare" rel="noopener me" target="_blank"><i class="fab fa-telegram fa-fw"></i>telegram</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/13/Next%E4%B8%BB%E9%A2%98%E5%B0%8F%E6%94%B9%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="HyperHare">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="HyperHare's Home">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Next主题小改（持续更新中） | HyperHare's Home">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Next主题小改（持续更新中）
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-02-13 18:16:17" itemprop="dateCreated datePublished" datetime="2023-02-13T18:16:17+08:00">2023-02-13</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-02-14 23:15:58" itemprop="dateModified" datetime="2023-02-14T23:15:58+08:00">2023-02-14</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>949</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>根据 Hexo Next主题 Pisces 子主题进行修改，Next版本 8.14.2 。</p>
+<span id="more"></span>
+
+<h2 id="隐藏头像边框"><a href="#隐藏头像边框" class="headerlink" title="隐藏头像边框"></a><strong>隐藏头像边框</strong></h2><div class="note info"><p>位置：themes\next\source\css_variables\Pisces.styl</p>
+</div>
+
+<div class="tabs" id="隐藏头像边框"><ul class="nav-tabs"><li class="tab active"><a href="#隐藏头像边框-1">修改前</a></li><li class="tab"><a href="#隐藏头像边框-2">修改后</a></li></ul><div class="tab-content"><div class="tab-pane active" id="隐藏头像边框-1"><p>修改前：<code>$site-author-image-border-width  = 1px;</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_18-44-45.png" alt="Snipaste_2023-02-13_18-44-45"></p></div><div class="tab-pane" id="隐藏头像边框-2"><p>修改后：<code>$site-author-image-border-width  = 0px;</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_18-45-14.png" alt="Snipaste_2023-02-13_18-45-14"></p></div></div></div>
+
+<h2 id="修改单行代码块颜色"><a href="#修改单行代码块颜色" class="headerlink" title="修改单行代码块颜色"></a>修改单行代码块颜色</h2><div class="note info"><p>位置：themes\next\source\css_common\scaffolding\highlight\index.styl</p>
+</div>
+
+<div class="tabs" id="修改代码块"><ul class="nav-tabs"><li class="tab active"><a href="#修改代码块-1">修改前代码块样式</a></li><li class="tab"><a href="#修改代码块-2">修改后代码块样式</a></li></ul><div class="tab-content"><div class="tab-pane active" id="修改代码块-1"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_18-58-26.png" alt="Snipaste_2023-02-13_18-58-26"></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">  <span class="keyword">@extend</span> $code-inline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: $table-font-size;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</span><br><span class="line">  <span class="attribute">word-wrap</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="修改代码块-2"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_19-02-21.png" alt="Snipaste_2023-02-13_19-02-21"></p>
+<p>添加以下代码：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">background</span>: <span class="number">#F8F8F8</span>;</span><br><span class="line"><span class="attribute">color</span>: orange;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">  <span class="keyword">@extend</span> $code-inline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: $table-font-size;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</span><br><span class="line">  <span class="attribute">word-wrap</span>();</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#F8F8F8</span>;</span><br><span class="line">  <span class="attribute">color</span>: orange;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></div></div>
+
+<h2 id="添加点击爆炸效果"><a href="#添加点击爆炸效果" class="headerlink" title="添加点击爆炸效果"></a>添加点击爆炸效果</h2><div class="note info"><p>位置：themes\next\layout 文件夹中</p>
+</div>
+
+<p>创建名为：<code>_custom</code>的文件夹，并在文件夹下创建名为：<code>_custom.njk</code>的文件，在其中添加如下代码：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">canvas</span> class=&quot;fireworks&quot; style=&quot;<span class="attribute">position</span>: fixed;<span class="attribute">left</span>: <span class="number">0</span>;<span class="attribute">top</span>: <span class="number">0</span>;<span class="attribute">z-index</span>: <span class="number">1</span>; <span class="attribute">pointer-events</span>: none;&quot; &gt;&lt;/<span class="selector-tag">canvas</span>&gt;</span><br><span class="line">&lt;script <span class="attribute">src</span>=&quot;//cdn<span class="selector-class">.bootcss</span><span class="selector-class">.com</span>/animejs/<span class="number">2.2</span>.<span class="number">0</span>/anime<span class="selector-class">.min</span><span class="selector-class">.js</span>&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script <span class="attribute">src</span>=&quot;/js/<span class="attribute">cursor</span>/explosion<span class="selector-class">.min</span><span class="selector-class">.js</span>&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<div class="note info"><p>位置：themes\next\source\js 文件夹中</p>
+</div>
+
+<p>创建名为：<code>cursor</code>的文件夹，并在在文件夹下创建名为：<code>explosion.min.js</code>的文件，并在其中添加如下代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&quot;use strict&quot;</span>;<span class="keyword">function</span> <span class="title function_">updateCoords</span>(<span class="params">e</span>)&#123;pointerX=(e.<span class="property">clientX</span>||e.<span class="property">touches</span>[<span class="number">0</span>].<span class="property">clientX</span>)-canvasEl.<span class="title function_">getBoundingClientRect</span>().<span class="property">left</span>,pointerY=e.<span class="property">clientY</span>||e.<span class="property">touches</span>[<span class="number">0</span>].<span class="property">clientY</span>-canvasEl.<span class="title function_">getBoundingClientRect</span>().<span class="property">top</span>&#125;<span class="keyword">function</span> <span class="title function_">setParticuleDirection</span>(<span class="params">e</span>)&#123;<span class="keyword">var</span> t=anime.<span class="title function_">random</span>(<span class="number">0</span>,<span class="number">360</span>)*<span class="title class_">Math</span>.<span class="property">PI</span>/<span class="number">180</span>,a=anime.<span class="title function_">random</span>(<span class="number">50</span>,<span class="number">180</span>),n=[-<span class="number">1</span>,<span class="number">1</span>][anime.<span class="title function_">random</span>(<span class="number">0</span>,<span class="number">1</span>)]*a;<span class="keyword">return</span>&#123;<span class="attr">x</span>:e.<span class="property">x</span>+n*<span class="title class_">Math</span>.<span class="title function_">cos</span>(t),<span class="attr">y</span>:e.<span class="property">y</span>+n*<span class="title class_">Math</span>.<span class="title function_">sin</span>(t)&#125;&#125;<span class="keyword">function</span> <span class="title function_">createParticule</span>(<span class="params">e,t</span>)&#123;<span class="keyword">var</span> a=&#123;&#125;;<span class="keyword">return</span> a.<span class="property">x</span>=e,a.<span class="property">y</span>=t,a.<span class="property">color</span>=colors[anime.<span class="title function_">random</span>(<span class="number">0</span>,colors.<span class="property">length</span>-<span class="number">1</span>)],a.<span class="property">radius</span>=anime.<span class="title function_">random</span>(<span class="number">16</span>,<span class="number">32</span>),a.<span class="property">endPos</span>=<span class="title function_">setParticuleDirection</span>(a),a.<span class="property">draw</span>=<span class="keyword">function</span>(<span class="params"></span>)&#123;ctx.<span class="title function_">beginPath</span>(),ctx.<span class="title function_">arc</span>(a.<span class="property">x</span>,a.<span class="property">y</span>,a.<span class="property">radius</span>,<span class="number">0</span>,<span class="number">2</span>*<span class="title class_">Math</span>.<span class="property">PI</span>,!<span class="number">0</span>),ctx.<span class="property">fillStyle</span>=a.<span class="property">color</span>,ctx.<span class="title function_">fill</span>()&#125;,a&#125;<span class="keyword">function</span> <span class="title function_">createCircle</span>(<span class="params">e,t</span>)&#123;<span class="keyword">var</span> a=&#123;&#125;;<span class="keyword">return</span> a.<span class="property">x</span>=e,a.<span class="property">y</span>=t,a.<span class="property">color</span>=<span class="string">&quot;#F00&quot;</span>,a.<span class="property">radius</span>=<span class="number">0.1</span>,a.<span class="property">alpha</span>=<span class="number">0.5</span>,a.<span class="property">lineWidth</span>=<span class="number">6</span>,a.<span class="property">draw</span>=<span class="keyword">function</span>(<span class="params"></span>)&#123;ctx.<span class="property">globalAlpha</span>=a.<span class="property">alpha</span>,ctx.<span class="title function_">beginPath</span>(),ctx.<span class="title function_">arc</span>(a.<span class="property">x</span>,a.<span class="property">y</span>,a.<span class="property">radius</span>,<span class="number">0</span>,<span class="number">2</span>*<span class="title class_">Math</span>.<span class="property">PI</span>,!<span class="number">0</span>),ctx.<span class="property">lineWidth</span>=a.<span class="property">lineWidth</span>,ctx.<span class="property">strokeStyle</span>=a.<span class="property">color</span>,ctx.<span class="title function_">stroke</span>(),ctx.<span class="property">globalAlpha</span>=<span class="number">1</span>&#125;,a&#125;<span class="keyword">function</span> <span class="title function_">renderParticule</span>(<span class="params">e</span>)&#123;<span class="keyword">for</span>(<span class="keyword">var</span> t=<span class="number">0</span>;t&lt;e.<span class="property">animatables</span>.<span class="property">length</span>;t++)&#123;e.<span class="property">animatables</span>[t].<span class="property">target</span>.<span class="title function_">draw</span>()&#125;&#125;<span class="keyword">function</span> <span class="title function_">animateParticules</span>(<span class="params">e,t</span>)&#123;<span class="keyword">for</span>(<span class="keyword">var</span> a=<span class="title function_">createCircle</span>(e,t),n=[],i=<span class="number">0</span>;i&lt;numberOfParticules;i++)&#123;n.<span class="title function_">push</span>(<span class="title function_">createParticule</span>(e,t))&#125;anime.<span class="title function_">timeline</span>().<span class="title function_">add</span>(&#123;<span class="attr">targets</span>:n,<span class="attr">x</span>:<span class="keyword">function</span>(<span class="params">e</span>)&#123;<span class="keyword">return</span> e.<span class="property">endPos</span>.<span class="property">x</span>&#125;,<span class="attr">y</span>:<span class="keyword">function</span>(<span class="params">e</span>)&#123;<span class="keyword">return</span> e.<span class="property">endPos</span>.<span class="property">y</span>&#125;,<span class="attr">radius</span>:<span class="number">0.1</span>,<span class="attr">duration</span>:anime.<span class="title function_">random</span>(<span class="number">1200</span>,<span class="number">1800</span>),<span class="attr">easing</span>:<span class="string">&quot;easeOutExpo&quot;</span>,<span class="attr">update</span>:renderParticule&#125;).<span class="title function_">add</span>(&#123;<span class="attr">targets</span>:a,<span class="attr">radius</span>:anime.<span class="title function_">random</span>(<span class="number">80</span>,<span class="number">160</span>),<span class="attr">lineWidth</span>:<span class="number">0</span>,<span class="attr">alpha</span>:&#123;<span class="attr">value</span>:<span class="number">0</span>,<span class="attr">easing</span>:<span class="string">&quot;linear&quot;</span>,<span class="attr">duration</span>:anime.<span class="title function_">random</span>(<span class="number">600</span>,<span class="number">800</span>)&#125;,<span class="attr">duration</span>:anime.<span class="title function_">random</span>(<span class="number">1200</span>,<span class="number">1800</span>),<span class="attr">easing</span>:<span class="string">&quot;easeOutExpo&quot;</span>,<span class="attr">update</span>:renderParticule,<span class="attr">offset</span>:<span class="number">0</span>&#125;)&#125;<span class="keyword">function</span> <span class="title function_">debounce</span>(<span class="params">e,t</span>)&#123;<span class="keyword">var</span> a;<span class="keyword">return</span> <span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="keyword">var</span> n=<span class="variable language_">this</span>,i=<span class="variable language_">arguments</span>;<span class="built_in">clearTimeout</span>(a),a=<span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;e.<span class="title function_">apply</span>(n,i)&#125;,t)&#125;&#125;<span class="keyword">var</span> canvasEl=<span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;.fireworks&quot;</span>);<span class="keyword">if</span>(canvasEl)&#123;<span class="keyword">var</span> ctx=canvasEl.<span class="title function_">getContext</span>(<span class="string">&quot;2d&quot;</span>),numberOfParticules=<span class="number">30</span>,pointerX=<span class="number">0</span>,pointerY=<span class="number">0</span>,tap=<span class="string">&quot;mousedown&quot;</span>,colors=[<span class="string">&quot;#FF1461&quot;</span>,<span class="string">&quot;#18FF92&quot;</span>,<span class="string">&quot;#5A87FF&quot;</span>,<span class="string">&quot;#FBF38C&quot;</span>],setCanvasSize=<span class="title function_">debounce</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;canvasEl.<span class="property">width</span>=<span class="number">2</span>*<span class="variable language_">window</span>.<span class="property">innerWidth</span>,canvasEl.<span class="property">height</span>=<span class="number">2</span>*<span class="variable language_">window</span>.<span class="property">innerHeight</span>,canvasEl.<span class="property">style</span>.<span class="property">width</span>=<span class="variable language_">window</span>.<span class="property">innerWidth</span>+<span class="string">&quot;px&quot;</span>,canvasEl.<span class="property">style</span>.<span class="property">height</span>=<span class="variable language_">window</span>.<span class="property">innerHeight</span>+<span class="string">&quot;px&quot;</span>,canvasEl.<span class="title function_">getContext</span>(<span class="string">&quot;2d&quot;</span>).<span class="title function_">scale</span>(<span class="number">2</span>,<span class="number">2</span>)&#125;,<span class="number">500</span>),render=<span class="title function_">anime</span>(&#123;<span class="attr">duration</span>:<span class="number">1</span>/<span class="number">0</span>,<span class="attr">update</span>:<span class="keyword">function</span>(<span class="params"></span>)&#123;ctx.<span class="title function_">clearRect</span>(<span class="number">0</span>,<span class="number">0</span>,canvasEl.<span class="property">width</span>,canvasEl.<span class="property">height</span>)&#125;&#125;);<span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(tap,<span class="keyword">function</span>(<span class="params">e</span>)&#123;<span class="string">&quot;sidebar&quot;</span>!==e.<span class="property">target</span>.<span class="property">id</span>&amp;&amp;<span class="string">&quot;toggle-sidebar&quot;</span>!==e.<span class="property">target</span>.<span class="property">id</span>&amp;&amp;<span class="string">&quot;A&quot;</span>!==e.<span class="property">target</span>.<span class="property">nodeName</span>&amp;&amp;<span class="string">&quot;IMG&quot;</span>!==e.<span class="property">target</span>.<span class="property">nodeName</span>&amp;&amp;(render.<span class="title function_">play</span>(),<span class="title function_">updateCoords</span>(e),<span class="title function_">animateParticules</span>(pointerX,pointerY))&#125;,!<span class="number">1</span>),<span class="title function_">setCanvasSize</span>(),<span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;resize&quot;</span>,setCanvasSize,!<span class="number">1</span>)&#125;<span class="string">&quot;use strict&quot;</span>;<span class="keyword">function</span> <span class="title function_">updateCoords</span>(<span class="params">e</span>)&#123;pointerX=(e.<span class="property">clientX</span>||e.<span class="property">touches</span>[<span class="number">0</span>].<span class="property">clientX</span>)-canvasEl.<span class="title function_">getBoundingClientRect</span>().<span class="property">left</span>,pointerY=e.<span class="property">clientY</span>||e.<span class="property">touches</span>[<span class="number">0</span>].<span class="property">clientY</span>-canvasEl.<span class="title function_">getBoundingClientRect</span>().<span class="property">top</span>&#125;<span class="keyword">function</span> <span class="title function_">setParticuleDirection</span>(<span class="params">e</span>)&#123;<span class="keyword">var</span> t=anime.<span class="title function_">random</span>(<span class="number">0</span>,<span class="number">360</span>)*<span class="title class_">Math</span>.<span class="property">PI</span>/<span class="number">180</span>,a=anime.<span class="title function_">random</span>(<span class="number">50</span>,<span class="number">180</span>),n=[-<span class="number">1</span>,<span class="number">1</span>][anime.<span class="title function_">random</span>(<span class="number">0</span>,<span class="number">1</span>)]*a;<span class="keyword">return</span>&#123;<span class="attr">x</span>:e.<span class="property">x</span>+n*<span class="title class_">Math</span>.<span class="title function_">cos</span>(t),<span class="attr">y</span>:e.<span class="property">y</span>+n*<span class="title class_">Math</span>.<span class="title function_">sin</span>(t)&#125;&#125;<span class="keyword">function</span> <span class="title function_">createParticule</span>(<span class="params">e,t</span>)&#123;<span class="keyword">var</span> a=&#123;&#125;;<span class="keyword">return</span> a.<span class="property">x</span>=e,a.<span class="property">y</span>=t,a.<span class="property">color</span>=colors[anime.<span class="title function_">random</span>(<span class="number">0</span>,colors.<span class="property">length</span>-<span class="number">1</span>)],a.<span class="property">radius</span>=anime.<span class="title function_">random</span>(<span class="number">16</span>,<span class="number">32</span>),a.<span class="property">endPos</span>=<span class="title function_">setParticuleDirection</span>(a),a.<span class="property">draw</span>=<span class="keyword">function</span>(<span class="params"></span>)&#123;ctx.<span class="title function_">beginPath</span>(),ctx.<span class="title function_">arc</span>(a.<span class="property">x</span>,a.<span class="property">y</span>,a.<span class="property">radius</span>,<span class="number">0</span>,<span class="number">2</span>*<span class="title class_">Math</span>.<span class="property">PI</span>,!<span class="number">0</span>),ctx.<span class="property">fillStyle</span>=a.<span class="property">color</span>,ctx.<span class="title function_">fill</span>()&#125;,a&#125;<span class="keyword">function</span> <span class="title function_">createCircle</span>(<span class="params">e,t</span>)&#123;<span class="keyword">var</span> a=&#123;&#125;;<span class="keyword">return</span> a.<span class="property">x</span>=e,a.<span class="property">y</span>=t,a.<span class="property">color</span>=<span class="string">&quot;#F00&quot;</span>,a.<span class="property">radius</span>=<span class="number">0.1</span>,a.<span class="property">alpha</span>=<span class="number">0.5</span>,a.<span class="property">lineWidth</span>=<span class="number">6</span>,a.<span class="property">draw</span>=<span class="keyword">function</span>(<span class="params"></span>)&#123;ctx.<span class="property">globalAlpha</span>=a.<span class="property">alpha</span>,ctx.<span class="title function_">beginPath</span>(),ctx.<span class="title function_">arc</span>(a.<span class="property">x</span>,a.<span class="property">y</span>,a.<span class="property">radius</span>,<span class="number">0</span>,<span class="number">2</span>*<span class="title class_">Math</span>.<span class="property">PI</span>,!<span class="number">0</span>),ctx.<span class="property">lineWidth</span>=a.<span class="property">lineWidth</span>,ctx.<span class="property">strokeStyle</span>=a.<span class="property">color</span>,ctx.<span class="title function_">stroke</span>(),ctx.<span class="property">globalAlpha</span>=<span class="number">1</span>&#125;,a&#125;<span class="keyword">function</span> <span class="title function_">renderParticule</span>(<span class="params">e</span>)&#123;<span class="keyword">for</span>(<span class="keyword">var</span> t=<span class="number">0</span>;t&lt;e.<span class="property">animatables</span>.<span class="property">length</span>;t++)&#123;e.<span class="property">animatables</span>[t].<span class="property">target</span>.<span class="title function_">draw</span>()&#125;&#125;<span class="keyword">function</span> <span class="title function_">animateParticules</span>(<span class="params">e,t</span>)&#123;<span class="keyword">for</span>(<span class="keyword">var</span> a=<span class="title function_">createCircle</span>(e,t),n=[],i=<span class="number">0</span>;i&lt;numberOfParticules;i++)&#123;n.<span class="title function_">push</span>(<span class="title function_">createParticule</span>(e,t))&#125;anime.<span class="title function_">timeline</span>().<span class="title function_">add</span>(&#123;<span class="attr">targets</span>:n,<span class="attr">x</span>:<span class="keyword">function</span>(<span class="params">e</span>)&#123;<span class="keyword">return</span> e.<span class="property">endPos</span>.<span class="property">x</span>&#125;,<span class="attr">y</span>:<span class="keyword">function</span>(<span class="params">e</span>)&#123;<span class="keyword">return</span> e.<span class="property">endPos</span>.<span class="property">y</span>&#125;,<span class="attr">radius</span>:<span class="number">0.1</span>,<span class="attr">duration</span>:anime.<span class="title function_">random</span>(<span class="number">1200</span>,<span class="number">1800</span>),<span class="attr">easing</span>:<span class="string">&quot;easeOutExpo&quot;</span>,<span class="attr">update</span>:renderParticule&#125;).<span class="title function_">add</span>(&#123;<span class="attr">targets</span>:a,<span class="attr">radius</span>:anime.<span class="title function_">random</span>(<span class="number">80</span>,<span class="number">160</span>),<span class="attr">lineWidth</span>:<span class="number">0</span>,<span class="attr">alpha</span>:&#123;<span class="attr">value</span>:<span class="number">0</span>,<span class="attr">easing</span>:<span class="string">&quot;linear&quot;</span>,<span class="attr">duration</span>:anime.<span class="title function_">random</span>(<span class="number">600</span>,<span class="number">800</span>)&#125;,<span class="attr">duration</span>:anime.<span class="title function_">random</span>(<span class="number">1200</span>,<span class="number">1800</span>),<span class="attr">easing</span>:<span class="string">&quot;easeOutExpo&quot;</span>,<span class="attr">update</span>:renderParticule,<span class="attr">offset</span>:<span class="number">0</span>&#125;)&#125;<span class="keyword">function</span> <span class="title function_">debounce</span>(<span class="params">e,t</span>)&#123;<span class="keyword">var</span> a;<span class="keyword">return</span> <span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="keyword">var</span> n=<span class="variable language_">this</span>,i=<span class="variable language_">arguments</span>;<span class="built_in">clearTimeout</span>(a),a=<span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;e.<span class="title function_">apply</span>(n,i)&#125;,t)&#125;&#125;<span class="keyword">var</span> canvasEl=<span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;.fireworks&quot;</span>);<span class="keyword">if</span>(canvasEl)&#123;<span class="keyword">var</span> ctx=canvasEl.<span class="title function_">getContext</span>(<span class="string">&quot;2d&quot;</span>),numberOfParticules=<span class="number">30</span>,pointerX=<span class="number">0</span>,pointerY=<span class="number">0</span>,tap=<span class="string">&quot;mousedown&quot;</span>,colors=[<span class="string">&quot;#FF1461&quot;</span>,<span class="string">&quot;#18FF92&quot;</span>,<span class="string">&quot;#5A87FF&quot;</span>,<span class="string">&quot;#FBF38C&quot;</span>],setCanvasSize=<span class="title function_">debounce</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;canvasEl.<span class="property">width</span>=<span class="number">2</span>*<span class="variable language_">window</span>.<span class="property">innerWidth</span>,canvasEl.<span class="property">height</span>=<span class="number">2</span>*<span class="variable language_">window</span>.<span class="property">innerHeight</span>,canvasEl.<span class="property">style</span>.<span class="property">width</span>=<span class="variable language_">window</span>.<span class="property">innerWidth</span>+<span class="string">&quot;px&quot;</span>,canvasEl.<span class="property">style</span>.<span class="property">height</span>=<span class="variable language_">window</span>.<span class="property">innerHeight</span>+<span class="string">&quot;px&quot;</span>,canvasEl.<span class="title function_">getContext</span>(<span class="string">&quot;2d&quot;</span>).<span class="title function_">scale</span>(<span class="number">2</span>,<span class="number">2</span>)&#125;,<span class="number">500</span>),render=<span class="title function_">anime</span>(&#123;<span class="attr">duration</span>:<span class="number">1</span>/<span class="number">0</span>,<span class="attr">update</span>:<span class="keyword">function</span>(<span class="params"></span>)&#123;ctx.<span class="title function_">clearRect</span>(<span class="number">0</span>,<span class="number">0</span>,canvasEl.<span class="property">width</span>,canvasEl.<span class="property">height</span>)&#125;&#125;);<span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(tap,<span class="keyword">function</span>(<span class="params">e</span>)&#123;<span class="string">&quot;sidebar&quot;</span>!==e.<span class="property">target</span>.<span class="property">id</span>&amp;&amp;<span class="string">&quot;toggle-sidebar&quot;</span>!==e.<span class="property">target</span>.<span class="property">id</span>&amp;&amp;<span class="string">&quot;A&quot;</span>!==e.<span class="property">target</span>.<span class="property">nodeName</span>&amp;&amp;<span class="string">&quot;IMG&quot;</span>!==e.<span class="property">target</span>.<span class="property">nodeName</span>&amp;&amp;(render.<span class="title function_">play</span>(),<span class="title function_">updateCoords</span>(e),<span class="title function_">animateParticules</span>(pointerX,pointerY))&#125;,!<span class="number">1</span>),<span class="title function_">setCanvasSize</span>(),<span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;resize&quot;</span>,setCanvasSize,!<span class="number">1</span>)&#125;;</span><br></pre></td></tr></table></figure>
+
+<div class="note info"><p>位置：themes\next\layout_layout.njk</p>
+</div>
+
+<p>此过程主要是对前面文件的导入，在文件末尾，<code>&lt;body&gt;</code>标签内添加如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% include &#x27;_custom/custom.njk&#x27; %&#125;</span><br></pre></td></tr></table></figure>
+
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>HyperHare
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://example.com/2023/02/13/Next%E4%B8%BB%E9%A2%98%E5%B0%8F%E6%94%B9%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/" title="Next主题小改（持续更新中）">http://example.com/2023/02/13/Next主题小改（持续更新中）/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+      </div>
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="https://blog.csdn.net/xiao_weiyu?spm=1000.2115.3001.5343">
+            <span class="icon">
+              <i class="fa fa-c"></i>
+            </span>
+
+            <span class="label">CSDN</span>
+          </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Next/" rel="tag"><i class="fa fa-tag"></i> Next</a>
+              <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+          </div>
+
+        
+
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">HyperHare</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">3k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">12 分钟</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+  
+  <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
+<script src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script src="/js/cursor/explosion.min.js"></script>
+</body>
+</html>
