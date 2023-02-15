@@ -307,6 +307,18 @@ dd {
 .fancybox .image-caption {
   display: none;
 }
+.post-body p a,
+.post-body li a {
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px dashed #0593d3;
+}
+.post-body p a:hover,
+.post-body li a:hover {
+  color: #fc6423;
+  border-bottom: none;
+  border-bottom: 1px dashed #fc6423;
+}
 .table-container {
   overflow: auto;
 }
