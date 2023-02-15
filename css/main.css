@@ -304,6 +304,9 @@ dd {
   margin: 0;
   padding: 0;
 }
+.fancybox .image-caption {
+  display: none;
+}
 .table-container {
   overflow: auto;
 }
