@@ -21,6 +21,44 @@
       </tags>
   </entry>
   <entry>
+    <title>让Next主页只显示文章标题</title>
+    <url>/2023/01/31/%E8%AE%A9Next%E4%B8%BB%E9%A1%B5%E5%8F%AA%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/</url>
+    <content><![CDATA[<p>方法其实很简单，打开Blog，切换到归档页面。打开F12控制台，我们利用指针点击我们要修改的地方，更改CSS属性改变归档页面样式，再修改主页路径为归档页面，即可完成主页只显示标题的操作，显示风格也可根据自己喜好，进行适当的调整。前提有一点点CSS的基础。</p>
+<span id="more"></span>
+
+<h2 id="修改归档页面"><a href="#修改归档页面" class="headerlink" title="修改归档页面"></a>修改归档页面</h2><div class="note info"><p>位置：themes\next\source\css_common\components\post\post-collapse.styl<br>.posts-collapse .post-content 标签下</p>
+</div>
+
+<div class="tabs" id="tab"><ul class="nav-tabs"><li class="tab active"><a href="#tab-1">隐藏标语</a></li><li class="tab"><a href="#tab-2">隐藏左边实线</a></li><li class="tab"><a href="#tab-3">隐藏实心圆点</a></li><li class="tab"><a href="#tab-4">隐藏下划线</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><p><code>.collection-title</code>标签下添加：<code>display:none</code></p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.collection-title</span> &#123;</span><br><span class="line"> <span class="attribute">font-size</span>: <span class="variable">$font</span>-size-large;</span><br><span class="line"> <span class="attribute">position</span>: relative;</span><br><span class="line"> <span class="attribute">display</span>: none;</span><br></pre></td></tr></table></figure>
+
+<!-- entab -->
+
+<!-- tab 让年份更靠左 -->
+
+<p>.<code>collection-header</code>标签下注释掉：<code>margin-left: 20px</code></p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.collection-header</span> &#123;</span><br><span class="line">   <span class="attribute">display</span>: block;</span><br><span class="line">   <span class="comment">// margin-left: 20px;</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="tab-2"><p><code>&amp;::before</code>标签下添加：<code>display: none;</code></p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">  <span class="selector-pseudo">&amp;::before</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="variable">$whitesmoke</span>;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">&#x27; &#x27;</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">margin-left</span>: -<span class="number">2px</span>;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="comment">// To do: 1.25em is inaccurate when .collection-title has line breaks on mobile</span></span><br><span class="line">    <span class="attribute">top</span>: <span class="number">1.25em</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="tab-3"><p><strong>年份圆点</strong>： <code>.collection-year</code>标签下<code>&amp;::before</code>标签中添加：<code>display: none;</code></p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-pseudo">&amp;::before</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="variable">$grey</span>;</span><br><span class="line">    <span class="attribute">margin-left</span>: -<span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">margin-top</span>: -<span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="built_in">round-icon</span>(<span class="number">8px</span>);</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>标题圆点</strong>：<code>.post-header</code> 标签下<code>&amp;::before</code>标签中添加：<code>display:none</code></p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-pseudo">&amp;::before</span> &#123;</span><br><span class="line">   <span class="attribute">background</span>: <span class="variable">$grey</span>;</span><br><span class="line">   <span class="attribute">border</span>: <span class="number">1px</span> solid white;</span><br><span class="line">   <span class="attribute">left</span>: -<span class="number">6px</span>;</span><br><span class="line">   <span class="attribute">position</span>: absolute;</span><br><span class="line">   <span class="attribute">top</span>: <span class="variable">$font</span>-size-smallest;</span><br><span class="line">   <span class="attribute">transition</span>: background <span class="variable">$transition</span>-ease;</span><br><span class="line">   <span class="built_in">round-icon</span>(<span class="number">6px</span>);</span><br><span class="line">   <span class="attribute">display</span>: none;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="tab-4"><p><code>.post-header</code>标签下注释掉：<code>border-bottom: 1px dashed $grey-light</code></p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.post-header</span> &#123;</span><br><span class="line">  <span class="comment">// border-bottom: 1px dashed $grey-light;</span></span><br><span class="line">  <span class="comment">// 2px is equal to half the width of .posts-collapse::before</span></span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">30px</span> <span class="number">2px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">padding-left</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">transition</span>: border <span class="variable">$transition</span>-ease;</span><br></pre></td></tr></table></figure></div></div></div>
+
+<p>修改后效果：<img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_16-31-00.png" alt="Snipaste_2023-02-13_16-31-00"></p>
+<h2 id="让归档页面在主页显示"><a href="#让归档页面在主页显示" class="headerlink" title="让归档页面在主页显示"></a>让归档页面在主页显示</h2><div class="note info"><p>位置：Blog/config.yml</p>
+</div>
+
+<p>修改Hexo配置文件，修改代码：</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_dir:</span> <span class="string">/</span></span><br><span class="line"></span><br><span class="line"><span class="attr">index_generator:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">archives</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Next主题小改（持续更新中）</title>
     <url>/2023/02/13/Next%E4%B8%BB%E9%A2%98%E5%B0%8F%E6%94%B9%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</url>
     <content><![CDATA[<p>根据 Hexo Next主题 Pisces 子主题进行修改，Next版本 8.14.2 。</p>
@@ -93,46 +131,8 @@
 <hr>
 ]]></content>
       <tags>
-        <tag>Next</tag>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>让Next主页只显示文章标题</title>
-    <url>/2023/01/31/%E8%AE%A9Next%E4%B8%BB%E9%A1%B5%E5%8F%AA%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/</url>
-    <content><![CDATA[<p>方法其实很简单，打开Blog，切换到归档页面。打开F12控制台，我们利用指针点击我们要修改的地方，更改CSS属性改变归档页面样式，再修改主页路径为归档页面，即可完成主页只显示标题的操作，显示风格也可根据自己喜好，进行适当的调整。前提有一点点CSS的基础。</p>
-<span id="more"></span>
-
-<h2 id="修改归档页面"><a href="#修改归档页面" class="headerlink" title="修改归档页面"></a>修改归档页面</h2><div class="note info"><p>位置：themes\next\source\css_common\components\post\post-collapse.styl<br>.posts-collapse .post-content 标签下</p>
-</div>
-
-<div class="tabs" id="tab"><ul class="nav-tabs"><li class="tab active"><a href="#tab-1">隐藏标语</a></li><li class="tab"><a href="#tab-2">隐藏左边实线</a></li><li class="tab"><a href="#tab-3">隐藏实心圆点</a></li><li class="tab"><a href="#tab-4">隐藏下划线</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><p><code>.collection-title</code>标签下添加：<code>display:none</code></p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.collection-title</span> &#123;</span><br><span class="line"> <span class="attribute">font-size</span>: <span class="variable">$font</span>-size-large;</span><br><span class="line"> <span class="attribute">position</span>: relative;</span><br><span class="line"> <span class="attribute">display</span>: none;</span><br></pre></td></tr></table></figure>
-
-<!-- entab -->
-
-<!-- tab 让年份更靠左 -->
-
-<p>.<code>collection-header</code>标签下注释掉：<code>margin-left: 20px</code></p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.collection-header</span> &#123;</span><br><span class="line">   <span class="attribute">display</span>: block;</span><br><span class="line">   <span class="comment">// margin-left: 20px;</span></span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="tab-2"><p><code>&amp;::before</code>标签下添加：<code>display: none;</code></p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">  <span class="selector-pseudo">&amp;::before</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="variable">$whitesmoke</span>;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">&#x27; &#x27;</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">    <span class="attribute">margin-left</span>: -<span class="number">2px</span>;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="comment">// To do: 1.25em is inaccurate when .collection-title has line breaks on mobile</span></span><br><span class="line">    <span class="attribute">top</span>: <span class="number">1.25em</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="tab-3"><p><strong>年份圆点</strong>： <code>.collection-year</code>标签下<code>&amp;::before</code>标签中添加：<code>display: none;</code></p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-pseudo">&amp;::before</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="variable">$grey</span>;</span><br><span class="line">    <span class="attribute">margin-left</span>: -<span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">margin-top</span>: -<span class="number">4px</span>;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="built_in">round-icon</span>(<span class="number">8px</span>);</span><br><span class="line">    <span class="attribute">display</span>: none;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>标题圆点</strong>：<code>.post-header</code> 标签下<code>&amp;::before</code>标签中添加：<code>display:none</code></p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-pseudo">&amp;::before</span> &#123;</span><br><span class="line">   <span class="attribute">background</span>: <span class="variable">$grey</span>;</span><br><span class="line">   <span class="attribute">border</span>: <span class="number">1px</span> solid white;</span><br><span class="line">   <span class="attribute">left</span>: -<span class="number">6px</span>;</span><br><span class="line">   <span class="attribute">position</span>: absolute;</span><br><span class="line">   <span class="attribute">top</span>: <span class="variable">$font</span>-size-smallest;</span><br><span class="line">   <span class="attribute">transition</span>: background <span class="variable">$transition</span>-ease;</span><br><span class="line">   <span class="built_in">round-icon</span>(<span class="number">6px</span>);</span><br><span class="line">   <span class="attribute">display</span>: none;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="tab-4"><p><code>.post-header</code>标签下注释掉：<code>border-bottom: 1px dashed $grey-light</code></p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.post-header</span> &#123;</span><br><span class="line">  <span class="comment">// border-bottom: 1px dashed $grey-light;</span></span><br><span class="line">  <span class="comment">// 2px is equal to half the width of .posts-collapse::before</span></span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">30px</span> <span class="number">2px</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">padding-left</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">transition</span>: border <span class="variable">$transition</span>-ease;</span><br></pre></td></tr></table></figure></div></div></div>
-
-<p>修改后效果：<img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_16-31-00.png" alt="Snipaste_2023-02-13_16-31-00"></p>
-<h2 id="让归档页面在主页显示"><a href="#让归档页面在主页显示" class="headerlink" title="让归档页面在主页显示"></a>让归档页面在主页显示</h2><div class="note info"><p>位置：Blog/config.yml</p>
-</div>
-
-<p>修改Hexo配置文件，修改代码：</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">archive_dir:</span> <span class="string">/</span></span><br><span class="line"></span><br><span class="line"><span class="attr">index_generator:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">archives</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">10</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
         <tag>Next</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
