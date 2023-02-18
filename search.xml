@@ -6,7 +6,7 @@
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>此方法相比网上的破解版软件直装不同，避免了关注营销号获取下载链接、百度云盘下载限速、版本无法及时更新、激活软件带有捆绑等问题（有钱推荐支持正版喵💖）</p>
 <span id="more"></span>
 
-<h2 id="下载Adobe正版软件"><a href="#下载Adobe正版软件" class="headerlink" title="下载Adobe正版软件"></a>下载Adobe正版软件</h2><p><a href="https://www.adobe.com/cn/">Adobe中国官网</a> ，这边我以 Adobe After Effects 为例</p>
+<h2 id="下载Adobe正版软件"><a href="#下载Adobe正版软件" class="headerlink" title="下载Adobe正版软件"></a>下载Adobe正版软件</h2><p><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWRvYmUuY29tL2NuLw==">Adobe中国官网<i class="fa fa-external-link-alt"></i></span> ，这边我以 Adobe After Effects 为例</p>
 <div class="tabs" id="安装adobe正版软件"><ul class="nav-tabs"><li class="tab active"><a href="#安装adobe正版软件-1">搜索</a></li><li class="tab"><a href="#安装adobe正版软件-2"><i class="fa fa-right-long"></i>开始免费试用</a></li><li class="tab"><a href="#安装adobe正版软件-3"><i class="fa fa-right-long"></i>免费试用</a></li><li class="tab"><a href="#安装adobe正版软件-4"><i class="fa fa-right-long"></i>安装软件</a></li></ul><div class="tab-content"><div class="tab-pane active" id="安装adobe正版软件-1"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/AdobeTeach/Snipaste_2023-01-28_19-56-03.png" alt="Snipaste_2023-01-28_19-56-03"></p></div><div class="tab-pane" id="安装adobe正版软件-2"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/AdobeTeach/image-20230119165633175.png" alt="image-20230119165633175"></p></div><div class="tab-pane" id="安装adobe正版软件-3"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/AdobeTeach/image-20230119165829262.png" alt="image-20230119165829262"></p></div><div class="tab-pane" id="安装adobe正版软件-4"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/AdobeTeach/image-20230119170039957.png" alt="image-20230119170039957"></p></div></div></div>
 
 <h2 id="下载GenP激活工具并激活"><a href="#下载GenP激活工具并激活" class="headerlink" title="下载GenP激活工具并激活"></a>下载GenP激活工具并激活</h2><p><a href='https://www.reddit.com/r/GenP/'>GenP官网</a>，选择最新版本下载（需要科学上网），或者在我提供的<a href = 'https://wwee.lanzouy.com/ixdFq0lf6efc'>蓝奏云链接</a>下载（随时间迁移，可能不会是最新版）</p>
@@ -22,93 +22,6 @@
       <tags>
         <tag>Adobe</tag>
         <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Next主题小改（持续更新中）</title>
-    <url>/2023/02/13/Next%E4%B8%BB%E9%A2%98%E5%B0%8F%E6%94%B9%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</url>
-    <content><![CDATA[<p>根据 Hexo Next主题 Pisces 子主题进行修改，Next版本 8.14.2 。</p>
-<span id="more"></span>
-
-<h1 id="隐藏头像边框"><a href="#隐藏头像边框" class="headerlink" title="隐藏头像边框"></a><strong>隐藏头像边框</strong></h1><div class="note info"><p>位置：themes\next\source\css_variables\Pisces.styl</p>
-</div>
-
-<div class="tabs" id="隐藏头像边框"><ul class="nav-tabs"><li class="tab active"><a href="#隐藏头像边框-1">修改前</a></li><li class="tab"><a href="#隐藏头像边框-2">修改后</a></li></ul><div class="tab-content"><div class="tab-pane active" id="隐藏头像边框-1"><p>修改前：<code>$site-author-image-border-width  = 1px;</code></p>
-<p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_18-44-45.png" alt="Snipaste_2023-02-13_18-44-45"></p></div><div class="tab-pane" id="隐藏头像边框-2"><p>修改后：<code>$site-author-image-border-width  = 0px;</code></p>
-<p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_18-45-14.png" alt="Snipaste_2023-02-13_18-45-14"></p></div></div></div>
-
-<hr>
-<h1 id="修改单行代码块颜色"><a href="#修改单行代码块颜色" class="headerlink" title="修改单行代码块颜色"></a>修改单行代码块颜色</h1><div class="note info"><p>位置：themes\next\source\css_common\scaffolding\highlight\index.styl</p>
-</div>
-
-<div class="tabs" id="修改代码块"><ul class="nav-tabs"><li class="tab active"><a href="#修改代码块-1">修改前代码块样式</a></li><li class="tab"><a href="#修改代码块-2">修改后代码块样式</a></li></ul><div class="tab-content"><div class="tab-pane active" id="修改代码块-1"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_18-58-26.png" alt="Snipaste_2023-02-13_18-58-26"></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">  <span class="keyword">@extend</span> $code-inline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: $table-font-size;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</span><br><span class="line">  <span class="attribute">word-wrap</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="修改代码块-2"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_19-02-21.png" alt="Snipaste_2023-02-13_19-02-21"></p>
-<p>添加以下代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="attribute">background</span>: <span class="number">#F8F8F8</span>;</span><br><span class="line"><span class="attribute">color</span>: orange;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">  <span class="keyword">@extend</span> $code-inline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: $table-font-size;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</span><br><span class="line">  <span class="attribute">word-wrap</span>();</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#F8F8F8</span>;</span><br><span class="line">  <span class="attribute">color</span>: orange;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></div></div>
-
-<hr>
-<h1 id="添加点击爆炸效果"><a href="#添加点击爆炸效果" class="headerlink" title="添加点击爆炸效果"></a>添加点击爆炸效果</h1><div class="note info"><p>位置：themes\next\layout 文件夹中</p>
-</div>
-
-<p>创建名为：<code>_custom</code>的文件夹，并在文件夹下创建名为：<code>_custom.njk</code>的文件，在其中添加如下代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;<span class="selector-tag">canvas</span> class=&quot;fireworks&quot; style=&quot;<span class="attribute">position</span>: fixed;<span class="attribute">left</span>: <span class="number">0</span>;<span class="attribute">top</span>: <span class="number">0</span>;<span class="attribute">z-index</span>: <span class="number">1</span>; <span class="attribute">pointer-events</span>: none;&quot; &gt;&lt;/<span class="selector-tag">canvas</span>&gt;</span><br><span class="line">&lt;script <span class="attribute">src</span>=&quot;https://cdn.jsdelivr.net/gh/HyperHare/CDN/Fireworks/anime.min.js<span class="string">&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">&lt;script src=&quot;</span>https://cdn.jsdelivr.net/gh/HyperHare/CDN/Fireworks/explosion.min.js<span class="string">&quot;&gt;&lt;/script&gt;</span></span><br></pre></td></tr></table></figure>
-
-<div class="note info"><p>位置：themes\next\layout_layout.njk</p>
-</div>
-
-<p>此过程主要是对前面文件的导入，在文件末尾，<code>&lt;body&gt;</code>标签内添加如下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% include &#x27;_custom/custom.njk&#x27; %&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="添加waline评论系统"><a href="#添加waline评论系统" class="headerlink" title="添加waline评论系统"></a>添加waline评论系统</h1><h2 id="安装waline插件"><a href="#安装waline插件" class="headerlink" title="安装waline插件"></a>安装waline插件</h2><p>参考 <a href="https://www.npmjs.com/package/@waline/hexo-next">这篇文章</a> ，进行waline插件安装。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install @waline/hexo-next</span><br></pre></td></tr></table></figure>
-
-<h2 id="数据库服务端设置"><a href="#数据库服务端设置" class="headerlink" title="数据库服务端设置"></a>数据库服务端设置</h2><p>根据 <a href="https://waline.js.org/guide/get-started/">官方文档</a> 设置好<code>LeanCloud(数据库)</code>与<code>Vercel(服务端)</code>。</p>
-<h2 id="配置主题文件"><a href="#配置主题文件" class="headerlink" title="配置主题文件"></a>配置主题文件</h2><p>在 <code>themes\next\_config.yml</code> 主题配置文件末尾添加如下代码：</p>
-<details class="note info no-icon"><summary><p>配置代码</p>
-</summary>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Waline Config File</span></span><br><span class="line"><span class="comment"># For more information:</span></span><br><span class="line"><span class="comment"># - https://waline.js.org</span></span><br><span class="line"><span class="comment"># - https://waline.js.org/reference/component.html</span></span><br><span class="line"><span class="attr">waline:</span></span><br><span class="line">  <span class="comment"># New! Whether enable this plugin</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Waline server address url, you should set this to your own link</span></span><br><span class="line">  <span class="attr">serverURL:</span> <span class="string">https://waline.vercel.app</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Waline library CDN url, you can set this to your preferred CDN</span></span><br><span class="line">  <span class="comment"># libUrl: https://unpkg.com/@waline/client@v2/dist/waline.js</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Waline CSS styles CDN url, you can set this to your preferred CDN</span></span><br><span class="line">  <span class="attr">cssUrl:</span> <span class="string">https://unpkg.com/@waline/client@v2/dist/waline.css</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Custom locales</span></span><br><span class="line">  <span class="comment"># locale:</span></span><br><span class="line">  <span class="comment">#   placeholder: Welcome to comment # Comment box placeholder</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># If false, comment count will only be displayed in post page, not in home page</span></span><br><span class="line">  <span class="attr">commentCount:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Pageviews count, <span class="doctag">Note:</span> You should not enable both `waline.pageview` and `leancloud_visitors`.</span></span><br><span class="line">  <span class="attr">pageview:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Custom emoji</span></span><br><span class="line">  <span class="comment"># emoji:</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/weibo</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/alus</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/bilibili</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/qq</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/tieba</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/tw-emoji</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Comment infomation, valid meta are nick, mail and link</span></span><br><span class="line">  <span class="comment"># meta:</span></span><br><span class="line">  <span class="comment">#   - nick</span></span><br><span class="line">  <span class="comment">#   - mail</span></span><br><span class="line">  <span class="comment">#   - link</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Set required meta field, e.g.: [nick] | [nick, mail]</span></span><br><span class="line">  <span class="comment"># requiredMeta:</span></span><br><span class="line">  <span class="comment">#   - nick</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP</span></span><br><span class="line">  <span class="comment"># lang: zh-CN</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Word limit, no limit when setting to 0</span></span><br><span class="line">  <span class="comment"># wordLimit: 0</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Whether enable login, can choose from &#x27;enable&#x27;, &#x27;disable&#x27; and &#x27;force&#x27;</span></span><br><span class="line">  <span class="comment"># login: enable</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># comment per page</span></span><br><span class="line">  <span class="comment"># pageSize: 10</span></span><br></pre></td></tr></table></figure>
-
-
-</details>
-
-
-
-<p>将<code>enable</code>改为<code>true</code>来启动waline评论系统，并将<code>serverURL</code>改为Vercel上部署的服务器地址，以后即可通过<code>serverURL/ui</code>来管理评论。</p>
-<h2 id="添加通知功能"><a href="#添加通知功能" class="headerlink" title="添加通知功能"></a>添加通知功能</h2><p>根据 <a href="https://waline.js.org/guide/features/notification.html#%E5%BE%AE%E4%BF%A1%E9%80%9A%E7%9F%A5">官方文档</a> 添加通知功能，以微信通知为例，登陆 <a href="https://sct.ftqq.com/login">Server酱</a> 获取SendKey(Token)，在Vercel服务端 <code>settings</code>-<code>Environment Variables</code> 添加对应的环境变量并重新部署，即可在微信收到评论通知。<br><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-15_17-36-53.png" alt="Snipaste_2023-02-15_17-36-53"></p>
-<h2 id="关闭某个页面评论"><a href="#关闭某个页面评论" class="headerlink" title="关闭某个页面评论"></a>关闭某个页面评论</h2><p>根据 Next主题 <a href="https://theme-next.js.org/docs/third-party-services/comments.html?highlight=comments">Comment Systems</a> 官方文档，在 <a href="https://hexo.io/docs/front-matter">Front-matter</a> 中添加如下变量：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">comments: false</span><br></pre></td></tr></table></figure>
-
-<h2 id="隐藏副标题评论数量显示"><a href="#隐藏副标题评论数量显示" class="headerlink" title="隐藏副标题评论数量显示"></a>隐藏副标题评论数量显示</h2><div class="note info"><p>位置：themes\next\layout_partials\post\post-meta.njk</p>
-</div>
-
-<p>将如下代码注释掉即可：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;&#123;- next_inject(&#x27;postMeta&#x27;) &#125;&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="隐藏fancybox图片名称"><a href="#隐藏fancybox图片名称" class="headerlink" title="隐藏fancybox图片名称"></a>隐藏fancybox图片名称</h1><div class="note info"><p>位置：themes\next\source\css_common\scaffolding\base.styl （可随意styl文件）</p>
-</div>
-
-<p>文件中添加如下代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.fancybox</span> <span class="selector-class">.image-caption</span> &#123;</span><br><span class="line">	<span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="添加又拍云logo"><a href="#添加又拍云logo" class="headerlink" title="添加又拍云logo"></a>添加又拍云logo</h1><p>在 <a href="https://www.upyun.com/league">又拍云联盟</a> 获取logo.zip压缩包，解压并选择一张logo添加到<code>themes\next\source\images</code>文件夹中。</p>
-<div class="note info"><p>位置：themes\next\layout_partials\footer.njk</p>
-</div>
-
-<p>在文件末尾添加如下代码：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;<span class="selector-tag">div</span>&gt;</span><br><span class="line">	 本网站由 &lt;<span class="selector-tag">a</span> href=&quot;https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral<span class="string">&quot; style=&quot;</span>border-bottom:none;&quot;&gt;</span><br><span class="line">   &lt;<span class="selector-tag">img</span> <span class="attribute">src</span>=&quot;/images/又拍云_logo6<span class="selector-class">.png</span>&quot; <span class="attribute">width</span>=&quot;<span class="number">70px</span>&quot; style=&quot;<span class="attribute">vertical-align</span>:middle;<span class="attribute">display</span>:inline;&quot; /&gt;&lt;/<span class="selector-tag">a</span>&gt; 提供CDN加速/云存储服务</span><br><span class="line">&lt;/<span class="selector-tag">div</span>&gt;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Next</category>
-      </categories>
-      <tags>
-        <tag>Next</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -203,7 +116,7 @@
 <p><code>a. sort ( )</code> 执行后 ：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [ <span class="number">2</span> , <span class="number">3</span> , <span class="number">5</span> , <span class="number">7</span> ,<span class="number">9</span> ] <span class="comment">#（从小到大）</span></span><br></pre></td></tr></table></figure>
 
-<p>（列表元素大小排序参考<a href="https://baike.baidu.com/item/ASCII/309296?fr=aladdin">ASCII码</a>）<br><code>a.sort ( reverse = True )</code> 执行后:</p>
+<p>（列表元素大小排序参考<span class="exturl" data-url="aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS9BU0NJSS8zMDkyOTY/ZnI9YWxhZGRpbg==">ASCII码<i class="fa fa-external-link-alt"></i></span>）<br><code>a.sort ( reverse = True )</code> 执行后:</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [ <span class="number">9</span> ，<span class="number">7</span> ，<span class="number">5</span>， <span class="number">3</span>， <span class="number">2</span> ] <span class="comment">#（从大到小）</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="函数关于列表"><a href="#函数关于列表" class="headerlink" title="函数关于列表"></a>函数关于列表</h2><h3 id="range-函数"><a href="#range-函数" class="headerlink" title="range( )函数"></a>range( )函数</h3><p><strong>语法</strong>：range ( 开始,结束,步长 ) (左闭右开原则）<br><strong>开始</strong>：默认是从0开始 例如 range(5) 等价于 range(0, 5) 0可以省略<br><strong>结束</strong>：不包括结束  例如 range(0, 5) 是为 [0, 1, 2, 3, 4]<br><strong>步长</strong>：默认为1 可以省略 例如 range(5) 等价于range(0, 5) 等价于 range( 0 , 5 , 1)<br>          （开始，结束，步长 都只能为整数）</p>
@@ -235,13 +148,100 @@
 <h3 id="count-方法"><a href="#count-方法" class="headerlink" title=".count( )方法"></a>.count( )方法</h3><p><strong>语法</strong>：变量名.count( 元素 )<br><strong>作用</strong>：计算变量中指定元素的个数</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [ <span class="number">1</span> , <span class="number">2</span> , <span class="number">3</span> , <span class="number">5</span> , <span class="number">2</span> , <span class="number">4</span> , <span class="number">1</span> , <span class="number">3</span> , <span class="number">6</span> ]</span><br><span class="line">b = a.count(<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
 <p>此时b的值为：2</p>
-<h2 id="PS（附言）"><a href="#PS（附言）" class="headerlink" title="PS（附言）"></a>PS（附言）</h2><p>本文章，2020年在CSDN上发表，今对其稍加改进并重新排版，传送去原贴按钮请点击我  <a href="https://blog.csdn.net/xiao_weiyu/article/details/107344389?spm=1001.2014.3001.5501">📖</a></p>
+<h2 id="PS（附言）"><a href="#PS（附言）" class="headerlink" title="PS（附言）"></a>PS（附言）</h2><p>本文章，2020年在CSDN上发表，今对其稍加改进并重新排版，传送去原贴按钮请点击我  <span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpYW9fd2VpeXUvYXJ0aWNsZS9kZXRhaWxzLzEwNzM0NDM4OT9zcG09MTAwMS4yMDE0LjMwMDEuNTUwMQ==">📖<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
       <categories>
         <category>Python</category>
       </categories>
       <tags>
         <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Next主题小改（持续更新中）</title>
+    <url>/2023/02/13/Next%E4%B8%BB%E9%A2%98%E5%B0%8F%E6%94%B9%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</url>
+    <content><![CDATA[<p>根据 Hexo Next主题 Pisces 子主题进行修改，Next版本 8.14.2 。</p>
+<span id="more"></span>
+
+<h1 id="隐藏头像边框"><a href="#隐藏头像边框" class="headerlink" title="隐藏头像边框"></a><strong>隐藏头像边框</strong></h1><div class="note info"><p>位置：themes\next\source\css_variables\Pisces.styl</p>
+</div>
+
+<div class="tabs" id="隐藏头像边框"><ul class="nav-tabs"><li class="tab active"><a href="#隐藏头像边框-1">修改前</a></li><li class="tab"><a href="#隐藏头像边框-2">修改后</a></li></ul><div class="tab-content"><div class="tab-pane active" id="隐藏头像边框-1"><p>修改前：<code>$site-author-image-border-width  = 1px;</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_18-44-45.png" alt="Snipaste_2023-02-13_18-44-45"></p></div><div class="tab-pane" id="隐藏头像边框-2"><p>修改后：<code>$site-author-image-border-width  = 0px;</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_18-45-14.png" alt="Snipaste_2023-02-13_18-45-14"></p></div></div></div>
+
+<hr>
+<h1 id="修改单行代码块颜色"><a href="#修改单行代码块颜色" class="headerlink" title="修改单行代码块颜色"></a>修改单行代码块颜色</h1><div class="note info"><p>位置：themes\next\source\css_common\scaffolding\highlight\index.styl</p>
+</div>
+
+<div class="tabs" id="修改代码块"><ul class="nav-tabs"><li class="tab active"><a href="#修改代码块-1">修改前代码块样式</a></li><li class="tab"><a href="#修改代码块-2">修改后代码块样式</a></li></ul><div class="tab-content"><div class="tab-pane active" id="修改代码块-1"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_18-58-26.png" alt="Snipaste_2023-02-13_18-58-26"></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">  <span class="keyword">@extend</span> $code-inline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: $table-font-size;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</span><br><span class="line">  <span class="attribute">word-wrap</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="修改代码块-2"><p><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-13_19-02-21.png" alt="Snipaste_2023-02-13_19-02-21"></p>
+<p>添加以下代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="attribute">background</span>: <span class="number">#F8F8F8</span>;</span><br><span class="line"><span class="attribute">color</span>: orange;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">code</span> &#123;</span><br><span class="line">  <span class="keyword">@extend</span> $code-inline;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: $table-font-size;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">2px</span> <span class="number">4px</span>;</span><br><span class="line">  <span class="attribute">word-wrap</span>();</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#F8F8F8</span>;</span><br><span class="line">  <span class="attribute">color</span>: orange;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></div></div>
+
+<hr>
+<h1 id="添加点击爆炸效果"><a href="#添加点击爆炸效果" class="headerlink" title="添加点击爆炸效果"></a>添加点击爆炸效果</h1><div class="note info"><p>位置：themes\next\layout 文件夹中</p>
+</div>
+
+<p>创建名为：<code>_custom</code>的文件夹，并在文件夹下创建名为：<code>_custom.njk</code>的文件，在其中添加如下代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;<span class="selector-tag">canvas</span> class=&quot;fireworks&quot; style=&quot;<span class="attribute">position</span>: fixed;<span class="attribute">left</span>: <span class="number">0</span>;<span class="attribute">top</span>: <span class="number">0</span>;<span class="attribute">z-index</span>: <span class="number">1</span>; <span class="attribute">pointer-events</span>: none;&quot; &gt;&lt;/<span class="selector-tag">canvas</span>&gt;</span><br><span class="line">&lt;script <span class="attribute">src</span>=&quot;https://cdn.jsdelivr.net/gh/HyperHare/CDN/Fireworks/anime.min.js<span class="string">&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="string">&lt;script src=&quot;</span>https://cdn.jsdelivr.net/gh/HyperHare/CDN/Fireworks/explosion.min.js<span class="string">&quot;&gt;&lt;/script&gt;</span></span><br></pre></td></tr></table></figure>
+
+<div class="note info"><p>位置：themes\next\layout_layout.njk</p>
+</div>
+
+<p>此过程主要是对前面文件的导入，在文件末尾，<code>&lt;body&gt;</code>标签内添加如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% include &#x27;_custom/custom.njk&#x27; %&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="添加waline评论系统"><a href="#添加waline评论系统" class="headerlink" title="添加waline评论系统"></a>添加waline评论系统</h1><h2 id="安装waline插件"><a href="#安装waline插件" class="headerlink" title="安装waline插件"></a>安装waline插件</h2><p>参考 <span class="exturl" data-url="aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvQHdhbGluZS9oZXhvLW5leHQ=">这篇文章<i class="fa fa-external-link-alt"></i></span> ，进行waline插件安装。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install @waline/hexo-next</span><br></pre></td></tr></table></figure>
+
+<h2 id="数据库服务端设置"><a href="#数据库服务端设置" class="headerlink" title="数据库服务端设置"></a>数据库服务端设置</h2><p>根据 <span class="exturl" data-url="aHR0cHM6Ly93YWxpbmUuanMub3JnL2d1aWRlL2dldC1zdGFydGVkLw==">官方文档<i class="fa fa-external-link-alt"></i></span> 设置好<code>LeanCloud(数据库)</code>与<code>Vercel(服务端)</code>。</p>
+<h2 id="配置主题文件"><a href="#配置主题文件" class="headerlink" title="配置主题文件"></a>配置主题文件</h2><p>在 <code>themes\next\_config.yml</code> 主题配置文件末尾添加如下代码：</p>
+<details class="note info no-icon"><summary><p>配置代码</p>
+</summary>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Waline Config File</span></span><br><span class="line"><span class="comment"># For more information:</span></span><br><span class="line"><span class="comment"># - https://waline.js.org</span></span><br><span class="line"><span class="comment"># - https://waline.js.org/reference/component.html</span></span><br><span class="line"><span class="attr">waline:</span></span><br><span class="line">  <span class="comment"># New! Whether enable this plugin</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Waline server address url, you should set this to your own link</span></span><br><span class="line">  <span class="attr">serverURL:</span> <span class="string">https://waline.vercel.app</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Waline library CDN url, you can set this to your preferred CDN</span></span><br><span class="line">  <span class="comment"># libUrl: https://unpkg.com/@waline/client@v2/dist/waline.js</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Waline CSS styles CDN url, you can set this to your preferred CDN</span></span><br><span class="line">  <span class="attr">cssUrl:</span> <span class="string">https://unpkg.com/@waline/client@v2/dist/waline.css</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Custom locales</span></span><br><span class="line">  <span class="comment"># locale:</span></span><br><span class="line">  <span class="comment">#   placeholder: Welcome to comment # Comment box placeholder</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># If false, comment count will only be displayed in post page, not in home page</span></span><br><span class="line">  <span class="attr">commentCount:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Pageviews count, <span class="doctag">Note:</span> You should not enable both `waline.pageview` and `leancloud_visitors`.</span></span><br><span class="line">  <span class="attr">pageview:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Custom emoji</span></span><br><span class="line">  <span class="comment"># emoji:</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/weibo</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/alus</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/bilibili</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/qq</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/tieba</span></span><br><span class="line">  <span class="comment">#   - https://unpkg.com/@waline/emojis@1.0.1/tw-emoji</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Comment infomation, valid meta are nick, mail and link</span></span><br><span class="line">  <span class="comment"># meta:</span></span><br><span class="line">  <span class="comment">#   - nick</span></span><br><span class="line">  <span class="comment">#   - mail</span></span><br><span class="line">  <span class="comment">#   - link</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Set required meta field, e.g.: [nick] | [nick, mail]</span></span><br><span class="line">  <span class="comment"># requiredMeta:</span></span><br><span class="line">  <span class="comment">#   - nick</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP</span></span><br><span class="line">  <span class="comment"># lang: zh-CN</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Word limit, no limit when setting to 0</span></span><br><span class="line">  <span class="comment"># wordLimit: 0</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Whether enable login, can choose from &#x27;enable&#x27;, &#x27;disable&#x27; and &#x27;force&#x27;</span></span><br><span class="line">  <span class="comment"># login: enable</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># comment per page</span></span><br><span class="line">  <span class="comment"># pageSize: 10</span></span><br></pre></td></tr></table></figure>
+
+
+</details>
+
+
+
+<p>将<code>enable</code>改为<code>true</code>来启动waline评论系统，并将<code>serverURL</code>改为Vercel上部署的服务器地址，以后即可通过<code>serverURL/ui</code>来管理评论。</p>
+<h2 id="添加通知功能"><a href="#添加通知功能" class="headerlink" title="添加通知功能"></a>添加通知功能</h2><p>根据 <span class="exturl" data-url="aHR0cHM6Ly93YWxpbmUuanMub3JnL2d1aWRlL2ZlYXR1cmVzL25vdGlmaWNhdGlvbi5odG1sIyVFNSVCRSVBRSVFNCVCRiVBMSVFOSU4MCU5QSVFNyU5RiVBNQ==">官方文档<i class="fa fa-external-link-alt"></i></span> 添加通知功能，以微信通知为例，登陆 <span class="exturl" data-url="aHR0cHM6Ly9zY3QuZnRxcS5jb20vbG9naW4=">Server酱<i class="fa fa-external-link-alt"></i></span> 获取SendKey(Token)，在Vercel服务端 <code>settings</code>-<code>Environment Variables</code> 添加对应的环境变量并重新部署，即可在微信收到评论通知。<br><img src="https://cdn.jsdelivr.net/gh/HyperHare/CDN/NextChange/Snipaste_2023-02-15_17-36-53.png" alt="Snipaste_2023-02-15_17-36-53"></p>
+<h2 id="关闭某个页面评论"><a href="#关闭某个页面评论" class="headerlink" title="关闭某个页面评论"></a>关闭某个页面评论</h2><p>根据 Next主题 <span class="exturl" data-url="aHR0cHM6Ly90aGVtZS1uZXh0LmpzLm9yZy9kb2NzL3RoaXJkLXBhcnR5LXNlcnZpY2VzL2NvbW1lbnRzLmh0bWw/aGlnaGxpZ2h0PWNvbW1lbnRz">Comment Systems<i class="fa fa-external-link-alt"></i></span> 官方文档，在 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZnJvbnQtbWF0dGVy">Front-matter<i class="fa fa-external-link-alt"></i></span> 中添加如下变量：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">comments: false</span><br></pre></td></tr></table></figure>
+
+<h2 id="隐藏副标题评论数量显示"><a href="#隐藏副标题评论数量显示" class="headerlink" title="隐藏副标题评论数量显示"></a>隐藏副标题评论数量显示</h2><div class="note info"><p>位置：themes\next\layout_partials\post\post-meta.njk</p>
+</div>
+
+<p>将如下代码注释掉即可：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;&#123;- next_inject(&#x27;postMeta&#x27;) &#125;&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="隐藏fancybox图片名称"><a href="#隐藏fancybox图片名称" class="headerlink" title="隐藏fancybox图片名称"></a>隐藏fancybox图片名称</h1><div class="note info"><p>位置：themes\next\source\css_common\scaffolding\base.styl （可随意styl文件）</p>
+</div>
+
+<p>文件中添加如下代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.fancybox</span> <span class="selector-class">.image-caption</span> &#123;</span><br><span class="line">	<span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="添加又拍云logo"><a href="#添加又拍云logo" class="headerlink" title="添加又拍云logo"></a>添加又拍云logo</h1><p>在 <span class="exturl" data-url="aHR0cHM6Ly93d3cudXB5dW4uY29tL2xlYWd1ZQ==">又拍云联盟<i class="fa fa-external-link-alt"></i></span> 获取logo.zip压缩包，解压并选择一张logo添加到<code>themes\next\source\images</code>文件夹中。</p>
+<div class="note info"><p>位置：themes\next\layout_partials\footer.njk</p>
+</div>
+
+<p>在文件末尾添加如下代码：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;<span class="selector-tag">div</span>&gt;</span><br><span class="line">	 本网站由 &lt;<span class="selector-tag">a</span> href=&quot;https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral<span class="string">&quot; style=&quot;</span>border-bottom:none;&quot;&gt;</span><br><span class="line">   &lt;<span class="selector-tag">img</span> <span class="attribute">src</span>=&quot;/images/又拍云_logo6<span class="selector-class">.png</span>&quot; <span class="attribute">width</span>=&quot;<span class="number">70px</span>&quot; style=&quot;<span class="attribute">vertical-align</span>:middle;<span class="attribute">display</span>:inline;&quot; /&gt;&lt;/<span class="selector-tag">a</span>&gt; 提供CDN加速/云存储服务</span><br><span class="line">&lt;/<span class="selector-tag">div</span>&gt;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Next</category>
+      </categories>
+      <tags>
+        <tag>Next</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
