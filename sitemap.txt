@@ -8,9 +8,9 @@ http://example.com/categories/index.html
 http://example.com/
 http://example.com/tags/Adobe/
 http://example.com/tags/%E6%95%99%E7%A8%8B/
-http://example.com/tags/Python/
 http://example.com/tags/Next/
 http://example.com/tags/Hexo/
+http://example.com/tags/Python/
 http://example.com/categories/Adobe/
-http://example.com/categories/Python/
 http://example.com/categories/Next/
+http://example.com/categories/Python/
