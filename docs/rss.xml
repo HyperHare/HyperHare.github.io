@@ -1,2 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小微宇</title><link>https://HyperHare.github.io</link><description>把复杂的问题简单化，为人如此，处世亦是如此 </description><copyright>小微宇</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/65274973?v=4&amp;size=64</url><title>avatar</title><link>https://HyperHare.github.io</link></image><lastBuildDate>Tue, 13 May 2025 02:50:06 +0000</lastBuildDate><managingEditor>小微宇</managingEditor><ttl>60</ttl><webMaster>小微宇</webMaster><item><title>甲骨文端口开放</title><link>https://HyperHare.github.io/post/jia-gu-wen-duan-kou-kai-fang.html</link><guid isPermaLink="true">https://HyperHare.github.io/post/jia-gu-wen-duan-kou-kai-fang.html</guid><pubDate>Tue, 13 May 2025 02:19:21 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小微宇</title><link>https://HyperHare.github.io</link><description>把复杂的问题简单化，为人如此，处世亦是如此 </description><copyright>小微宇</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/65274973?v=4&amp;size=64</url><title>avatar</title><link>https://HyperHare.github.io</link></image><lastBuildDate>Tue, 13 May 2025 02:52:21 +0000</lastBuildDate><managingEditor>小微宇</managingEditor><ttl>60</ttl><webMaster>小微宇</webMaster><item><title>甲骨文端口开放</title><link>https://HyperHare.github.io/post/jia-gu-wen-duan-kou-kai-fang.html</link><description>```bash
+sudo i
+sudo iptables -P INPUT ACCEPT
+sudo iptables -P FORWARD ACCEPT
+sudo iptables -P OUTPUT ACCEPT
+sudo iptables -F
+ufw disable
+。</description><guid isPermaLink="true">https://HyperHare.github.io/post/jia-gu-wen-duan-kou-kai-fang.html</guid><pubDate>Tue, 13 May 2025 02:19:21 +0000</pubDate></item></channel></rss>
